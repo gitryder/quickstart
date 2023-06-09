@@ -2,6 +2,9 @@
 
 A boilerplate with Next.js, Style-Components, TanStack Query, Josh Comeau's CSS reset, and Supabase integration. ✨
 
+<img width="1440" alt="Screenshot 2023-06-10 at 02 15 32" src="https://github.com/gitryder/quickstart/assets/14860945/40e58b50-3c28-411e-b767-dcf95836a1ee">
+
+
 ## Features ✨
 
 📦 Built with Next.js - The React framework for production-ready applications.
