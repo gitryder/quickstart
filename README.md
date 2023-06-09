@@ -1,34 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# quickstart 👋
 
-## Getting Started
+A boilerplate with Next.js, Style-Components, TanStack Query, Josh Comeau's CSS reset, and Supabase integration. ✨
 
-First, run the development server:
+## Features ✨
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+📦 Built with Next.js - The React framework for production-ready applications.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+💅 Styled Components - Utilize the power of CSS-in-JS with styled components to create stylish and maintainable UI components.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+🔍 TanStack Query - A powerful asynchronous state management library.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+🔄 Josh Comeau's CSS Reset - A solid foundation for consistent cross-browser styling.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+🔧 Dotenv Config - Easily manage your environment variables with basic dotenv configuration.
 
-## Learn More
+🔗 Supabase Integration - Simplified configuration for Supabase, a robust open-source alternative to Firebase.
 
-To learn more about Next.js, take a look at the following resources:
+## Getting Started 🚀
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Follow these steps to get started with your project:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clone the repository: `git clone https://github.com/your-repo.git`
+2. Install dependencies: `npm install` or `yarn install`
+3. Set up your environment variables by creating a `.env` file. Refer to the `.env.example` file for guidance.
+4. Start the development server: `npm run dev` or `yarn dev`
+5. Open your browser and navigate to `http://localhost:3000` to see your app in action!
 
-## Deploy on Vercel
+## Additional Information ℹ️
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Supabase Integration 🔗
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This boilerplate provides a basic setup for integrating Supabase into your app. Supabase is an open-source alternative to Firebase that provides a scalable and secure backend for your applications.
+
+To use Supabase in your project, follow these steps:
+
+1. Open the `src/utils/supabase.ts` file.
+2. This file exports the Supabase client instance, which is configured to use the Supabase environment variables specified in the `.env` file.
+3. You can import and use this client instance in your components and modules to interact with your Supabase backend.
+4. Refer to the Supabase documentation (https://supabase.io/docs) for more details on how to use the client and perform various operations.
+
+## Contributing 🤝
+
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please create an issue or submit a pull request. Let's make this boilerplate even better together! 🎉
+
+## License 📄
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use it for personal or commercial projects.
+
+## Acknowledgements 🙏
+
+Special thanks to the creators and maintainers of the technologies and libraries used in this boilerplate. Their hard work and dedication make our development process smoother and more enjoyable.
+
+- Next.js: [https://nextjs.org](https://nextjs.org)
+- Styled Components: [https://styled-components.com](https://styled-components.com)
+- TanStack Query: [https://tanstack.com/query](https://tanstack.com/query)
+- Josh Comeau's CSS Reset Defaults: [https://www.joshwcomeau.com/css/custom-css-reset](https://www.joshwcomeau.com/css/custom-css-reset/)
+- Supabase: [https://supabase.io](https://supabase.io)
+
