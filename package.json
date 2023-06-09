@@ -1,7 +1,7 @@
 {
-  "name": "index",
-  "version": "0.1.0",
-  "private": true,
+  "name": "quickstart",
+  "description": "A boilerplate with Next.js, Style-Components, TanStack Query, Josh Comeau's CSS reset, and Supabase integration.",
+  "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
